@@ -1,6 +1,7 @@
-import  { useState, useEffect } from 'react'
+import  { useState, useEffect } from 'react';
+import { API_KEY } from './key';
 
-const API_ENDPOINT = "http://www.omdbapi.com/?&apikey=b10ff328";
+const API_ENDPOINT = `http://www.omdbapi.com/?&apikey=${API_KEY}`;
 
 const useFetch = (urlParams) => {
     
